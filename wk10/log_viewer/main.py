@@ -1,4 +1,4 @@
-from PySimple6.QtWidgets import QApplication
+from PySide6.QtWidgets import QApplication
 from services.file_source import FileLogSource
 from services.mock_source import MockLogSource
 from ui.main_window import MainWindow
@@ -10,4 +10,3 @@ if __name__ == "__main__":
     viewer = MainWindow(log)
     viewer.show()
     app.exec()
-    
