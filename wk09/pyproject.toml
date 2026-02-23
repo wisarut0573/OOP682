@@ -1,5 +1,9 @@
 [project]
+<<<<<<< HEAD
 name = "oop682"
+=======
+name = "week9"
+>>>>>>> cc0e7ac70ad0b6d1f84436f8b9705ccc4b6d9d3f
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"

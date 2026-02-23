@@ -7,6 +7,7 @@ class Dog:
         print(f"{self.name} is {self.age} years old.")
 
     def __str__(self):
+<<<<<<< HEAD
         return f"{self.name} is {self.age} years."
 
 def main():
@@ -16,3 +17,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+        return f"Dog(Name: {self.name}, Age: {self.age})"
+def main():
+    my_dog = Dog("Buddy", 3)
+    your_dog = Dog("Max", 5)
+    print(my_dog)
+  
+
+
+if __name__ == "__main__":
+    main()
+>>>>>>> cc0e7ac70ad0b6d1f84436f8b9705ccc4b6d9d3f
