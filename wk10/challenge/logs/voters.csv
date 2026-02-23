@@ -1,3 +1,0 @@
-timestamp,level,message
-2024-01-01 10:00,INFO,Started from CSV
-2024-01-01 10:05,ERROR,CSV connection failed
